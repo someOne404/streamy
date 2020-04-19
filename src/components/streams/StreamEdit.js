@@ -3,7 +3,6 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { fetchStream, editStream } from '../../actions';
 import StreamForm from './StreamForm';
-import { CREATE_STREAM } from '../../actions/types';
 
 class StreamEdit extends React.Component {
     componentDidMount() {
